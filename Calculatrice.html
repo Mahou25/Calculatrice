@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="text-center">Calculatrice</h1>
+    <div class="container border rounded border-black p-2 ">
+        <p class="text-end preview text-primary"></p>
+        <input type="number" readonly value="0" class="form-control form-control-lg border-info text-end" value="0">
+        
+        <div class="row mt-2 gx-4 gy-3">
+            <div class="col-3">
+                <button class="btn btn-danger w-100 reset">AC</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-warning w-100 del" >DEL</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-success w-100 negative">+/-</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-success w-100 operator">/</button>
+            </div>
+
+            <!--Deuxieme ligne-->
+
+            <div class="col-3">
+                <button class="btn btn-info number w-100 ">7</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info number w-100">8</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info number w-100">9</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-success w-100 operator">*</button>
+            </div>
+
+            <!--Troisieme ligne-->
+
+            <div class="col-3">
+                <button class="btn btn-info w-100 number">4</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info w-100 number">5</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info w-100 number">6</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-success w-100 operator">-</button>
+            </div>
+
+            <!--Quatrieme ligne-->
+
+            <div class="col-3">
+                <button class="btn btn-info w-100 number">1</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info w-100 number">2</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info w-100 number ">3</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-success w-100 operator">+</button>
+            </div>
+
+            <!--Cinquieme ligne-->
+
+            <div class="col-6">
+                <button class="btn btn-info w-100 number">0</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-info w-100 number">.</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-success w-100 operator">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="/bootstrap/js/bootstrap.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="Calculatrice.js"></script>
+</body>
+</html>
